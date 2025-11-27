@@ -1,0 +1,13 @@
+name: semver-rebase-driver
+version: 1.0.0
+
+authors:
+  - globoplox <globoplox@gmail.com>
+
+targets:
+  semver-rebase-driver:
+    main: src/cli.cr
+
+crystal: '>= 1.18.2'
+
+license: MIT
