@@ -11,13 +11,12 @@ Rebasing `package.json` based projects that follow semantic versioning or change
 The goal is to go from
 ```mermaid
 gitGraph
-  gitGraph
-      commit id: "Initial 1.0.0"
-      branch develop
-      commit id: "Add feature 1.1.0"
-      checkout main
-      commit id: "Breaking fix 2.0.0"
-      commit id: "Patch 2.0.1"
+    commit id: "Initial 1.0.0"
+    branch develop
+    commit id: "Add feature 1.1.0"
+    checkout main
+    commit id: "Breaking fix 2.0.0"
+    commit id: "Patch 2.0.1"
 ```
 
 to  
